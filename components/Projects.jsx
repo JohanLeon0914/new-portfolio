@@ -47,14 +47,7 @@ function Projects() {
             deploy="true"
           />
           <ProjectsItem
-            title="CryptoBot"
-            backgroundImg="/assets/projects/bot.png"
-            projectURL="https://github.com/JohanLeon0914/frontend-cryptobot"
-            overview="A telegram bot that allows users to track the cryptocurrencies of their preferences, so that the bot could send them news and price updates from time to time."
-            tecnologys="Nextjs, Firebase, Nodejs, TailwindCSS"
-          />
-          <ProjectsItem
-            title="Inventario doña popetas"
+            title="Popetas Inventory"
             backgroundImg="/assets/projects/popetas.png"
             projectURL="https://crud-angular-firebase-5c874.web.app"
             overview="An application made for managing the inventory of a microenterprise in my city, which allows the user to do CRUD of all their products that they have in the two branches of their business."
@@ -63,7 +56,7 @@ function Projects() {
           />
           <ProjectsItem
             title="Login With Auth0"
-            backgroundImg="/assets/projects/Logo_de_Auth0.svg"
+            backgroundImg="/assets/projects/auth.webp"
             projectURL="https://github.com/JohanLeon0914/auth0Login"
             overview="A login made with the Auth0 library and deployed with NodeJS, which allows the user to log in with google and be able to give and remove session permissions and provide user registration. With which he has developed other projects taking this as a basis for managing sessions and records within the applications."
             tecnologys="React, NodeJS, Auth0"
@@ -84,10 +77,17 @@ function Projects() {
           />
           <ProjectsItem
             title="Movies API"
-            backgroundImg="/assets/projects/movies.png"
+            backgroundImg="/assets/projects/movie.jpg"
             projectURL="https://github.com/JohanLeon0914/MoviesReact"
             overview="Website made in react in which a movie API is consumed, where you can filter these by genre and search for a specific one, it also has a detail section for each of the movies with all the information provided by the movie. API about it, such as its release date, cast, etc."
             tecnologys="React"
+          />
+          <ProjectsItem
+            title="CryptoBot"
+            backgroundImg="/assets/projects/bot.png"
+            projectURL="https://github.com/JohanLeon0914/frontend-cryptobot"
+            overview="A telegram bot that allows users to track the cryptocurrencies of their preferences, so that the bot could send them news and price updates from time to time."
+            tecnologys="Nextjs, Firebase, Nodejs, TailwindCSS"
           />
           
         </div>

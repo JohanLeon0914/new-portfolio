@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -5,12 +6,10 @@ import React from "react";
 function ProjectsItem({ title, backgroundImg, projectURL, overview, tecnologys, deploy }) {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-t from-[#5651e5] to-[#709dff]">
-      <Image
+      <img
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
         alt={title}
-        width={650}
-        height={450}
       />
       <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
         <h3 className="text-2xl text-white tracking-widest text-center mb-2">
