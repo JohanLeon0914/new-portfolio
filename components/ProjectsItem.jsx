@@ -8,7 +8,7 @@ function ProjectsItem({ title, backgroundImg, projectURL, overview, tecnologys, 
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}
-        alt="chat"
+        alt={title}
         width={650}
         height={450}
       />
