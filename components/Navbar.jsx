@@ -115,7 +115,7 @@ function Navbar() {
                 <li onClick={() => setNav(false)} className="py-4 text-sm"> Contact </li>
               </Link>
             </ul>
-            <div className="pt-20">
+            <div className="pt-7">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Connect to me
               </p>
