@@ -1,13 +1,14 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
+import Link from "next/link";
 
 function Main() {
   const hi = "Hi, i'm ";
-  const presentation = "I am an systems Engineer student specialized in Web development, mostly focused on the frontend, using technologies such as React, NextJS and Angular. I am looking to take the next leap in my career in the profesional's world."
- 
+  const presentation =
+    "I am an systems Engineer student specialized in Web development, mostly focused on the frontend, using technologies such as React, NextJS and Angular. I am looking to take the next leap in my career in the profesional's world.";
+
   const [text, count] = useTypewriter({
     words: [
       "A Front-End Web Developer",
@@ -36,18 +37,33 @@ function Main() {
             {presentation}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaLinkedin />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsPersonLinesFill />
-            </div>
+            <Link
+              href="https://www.linkedin.com/in/johan-alberto-leon-18b688229/"
+              target="_blank"
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaLinkedin />
+            </Link>
+            <Link
+              href="https://github.com/JohanLeon0914"
+              target="_blank"
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaGithub />
+            </Link>
+            <Link
+              href="https://gitlab.com/johanalbertols"
+              target="_blank"
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaGitlab />
+            </Link>
+            <Link
+              href="#contact"
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <AiOutlineMail />
+            </Link>
           </div>
         </div>
       </div>

@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import emailjs from '@emailjs/browser'
+import emailjs from "@emailjs/browser";
 import swal from "sweetalert";
 import Link from "next/link";
 
 function Contact() {
   const sendEmail = (event) => {
     event.preventDefault();
-    sendAlert()
+    sendAlert();
     emailjs
       .sendForm(
         "service_yydk9mm",
@@ -25,12 +24,12 @@ function Contact() {
 
   const sendAlert = () => {
     swal({
-      title: 'Gracias por tu mensaje',
+      title: "Gracias por tu mensaje",
       text: `Tu mensaje se ha enviado con exito`,
-      icon: 'success',
-      button: 'Aceptar'
-    })
-  }
+      icon: "success",
+      button: "Aceptar",
+    });
+  };
 
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -60,18 +59,33 @@ function Contact() {
               <div>
                 <p className="uppercase pt-4">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <Link
+                    href="https://www.linkedin.com/in/johan-alberto-leon-18b688229/"
+                    target="_blank"
+                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
                     <FaLinkedin />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </Link>
+                  <Link
+                    href="https://github.com/JohanLeon0914"
+                    target="_blank"
+                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
                     <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  </Link>
+                  <Link
+                    href="https://gitlab.com/johanalbertols"
+                    target="_blank"
+                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
+                    <FaGitlab />
+                  </Link>
+                  <Link
+                    href="#contact"
+                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
                     <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsPersonLinesFill />
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -85,7 +99,7 @@ function Contact() {
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
                       type="text"
-                      name='user_name'
+                      name="user_name"
                       required
                       className="border-2 rounded-lg p-3 flex border-gray-300 "
                     />
@@ -104,7 +118,7 @@ function Contact() {
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
                     type="email"
-                    name='user_email'
+                    name="user_email"
                     required
                     className="border-2 rounded-lg p-3 flex border-gray-300 "
                   />

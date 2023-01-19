@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsPersonLinesFill } from "react-icons/bs";
+import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -121,18 +120,18 @@ function Navbar() {
                 Connect to me
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <Link href="https://www.linkedin.com/in/johan-alberto-leon-18b688229/" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedin />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </Link>
+                <Link href="https://github.com/JohanLeon0914" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                </Link>
+                <Link href="#contact" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaGitlab />
+                </Link>
+                <Link href="https://gitlab.com/johanalbertols" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsPersonLinesFill />
-                </div>
+                </Link>
               </div>
             </div>
           </div>
