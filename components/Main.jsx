@@ -23,7 +23,7 @@ function Main() {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+          <p className="uppercase text-sm tracking-widest text-gray-400">
             Lets build something together
           </p>
           <h1>
@@ -33,7 +33,7 @@ function Main() {
             <span className="mr-3">{text}</span>
             <Cursor cursorColor="#F7AB0A" />
           </h2>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <p className="py-4 text-gray-400 max-w-[70%] m-auto">
             {presentation}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 function About() {
@@ -14,11 +15,13 @@ function About() {
             About
           </p>
           <h2 className="py-5">Who I Am</h2>
-          <p className="py-2 text-gray-600">{p}</p>
-          <p className="py-2 text-gray-600">{about}</p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects.
-          </p>
+          <p className="py-2 text-gray-400">{p}</p>
+          <p className="py-2 text-gray-400">{about}</p>
+          <Link href='#projects'>
+            <p className="py-2 text-gray-400 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
+          </Link>
         </div>
         <div>
           <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
