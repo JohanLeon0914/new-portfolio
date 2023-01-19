@@ -61,4 +61,4 @@ const Project = () => {
   );
 };
 
-export default property;
+export default Project;
