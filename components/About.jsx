@@ -14,7 +14,7 @@ function About() {
           <p className="py-4 uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-5">Who I Am</h2>
+          <h2 className="py-5">Who I Am?</h2>
           <p className="py-2 text-gray-400">{p}</p>
           <p className="py-2 text-gray-400">{about}</p>
           <Link href='#projects'>
