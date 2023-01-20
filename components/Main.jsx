@@ -7,7 +7,7 @@ import Link from "next/link";
 function Main() {
   const hi = "Hi, i'm ";
   const presentation =
-    "I am an systems Engineer student specialized in Web development, mostly focused on the frontend, using technologies such as React, NextJS and Angular. I am looking to take the next leap in my career in the profesional's world.";
+    "I am a systems Engineer student specialized in Web development, mostly focused on the frontend, using technologies such as React, NextJS and Angular. I am looking to take the next leap in my career in the profesional's world.";
 
   const [text, count] = useTypewriter({
     words: [

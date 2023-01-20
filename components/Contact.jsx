@@ -97,12 +97,12 @@ function Contact() {
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
-                    <input
-                      type="text"
-                      name="user_name"
-                      required
-                      className="border-2 rounded-lg p-3 flex border-gray-300 "
-                    />
+                      <input
+                        type="text"
+                        name="user_name"
+                        required
+                        className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
+                      />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
@@ -110,7 +110,7 @@ function Contact() {
                     </label>
                     <input
                       type="text"
-                      className="border-2 rounded-lg p-3 flex border-gray-300 "
+                      className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                     />
                   </div>
                 </div>
@@ -120,20 +120,20 @@ function Contact() {
                     type="email"
                     name="user_email"
                     required
-                    className="border-2 rounded-lg p-3 flex border-gray-300 "
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
                     type="text"
-                    className="border-2 rounded-lg p-3 flex border-gray-300 "
+                    className="border-2 rounded-lg p-3 flex border-gray-300 text-black"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300"
+                    className="border-2 rounded-lg p-3 border-gray-300 text-black"
                     required
                     name="user_message"
                     rows="10"

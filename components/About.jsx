@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 function About() {
-  const p = "// I am not yout normal developer";
+  const p = "// I am not your normal developer";
   const about =
     "I am a frontend developer born in Colombia, who started his career to become a professional more than 4 years ago, at the Fransisco de Paula Santander University as a systems engineer, all these years I have been acquiring more and more knowledge in different projects Personal and from my university, you can see all these projects in this portfolio and by visiting my Github. I hope my capabilities meet your expectations and you connect with me.";
   return (
