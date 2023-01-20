@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 import Link from "next/link";
 
 function Main() {
-  const hi = "Hi, i'm ";
+  const hi = "Hi, I'm ";
   const presentation =
     "I am a systems Engineer student specialized in Web development, mostly focused on the frontend, using technologies such as React, NextJS and Angular. I am looking to take the next leap in my career in the profesional's world.";
 

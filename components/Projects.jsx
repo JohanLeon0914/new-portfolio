@@ -5,7 +5,7 @@ import React from "react";
 import ProjectsItem from "./ProjectsItem";
 
 function Projects() {
-  const h2 = "What I've Built";
+  const h2 = "What I've Built?";
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
