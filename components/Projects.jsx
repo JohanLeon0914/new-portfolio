@@ -15,6 +15,14 @@ function Projects() {
         <h2 className="py-5">{h2}</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectsItem
+            title="application to read and publish my novels"
+            backgroundImg="/assets/projects/pandora.png"
+            projectURL="https://pandora-web-phi.vercel.app"
+            overview="An application where you can publish information about a personal novel written by me, there I can publish chapters where people can read them, it has a google login and logged in users can interact with the chapters by liking and adding them to their favorites and read lists, which you can review on your profile page. In addition to being able to comment on each chapter."
+            tecnologys="Nextjs, Firebase, TailwindCSS"
+            deploy="true"
+          />
+          <ProjectsItem
             title="Functional Chat"
             backgroundImg="/assets/projects/chat.png"
             projectURL="https://boomerland-private-chat.netlify.app/"
@@ -45,6 +53,14 @@ function Projects() {
             overview="An Angular application that can check prices and other data on cryptocurrencies with the help of an external API, has a search engine that filters cryptocurrencies."
             tecnologys="Angular, TailwindCSS"
             deploy="true"
+          />
+          <ProjectsItem
+            title="WhatsApp Bot"
+            backgroundImg="/assets/projects/bot-whatsapp2.png"
+            projectURL="https://github.com/JohanLeon0914/bot-whatsapp-prueba"
+            overview="a chatbot with AI that is able to answer questions depending on the business for which you want to adapt, people can enter the bot's chat and ask questions related to the context (mostly businesses) for which it is programmed."
+            tecnologys="Nodejs, OpenAI, @bot-whatsapp"
+            deploy="false"
           />
           <ProjectsItem
             title="Popetas Inventory"
