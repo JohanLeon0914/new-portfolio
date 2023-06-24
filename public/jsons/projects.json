@@ -1,0 +1,98 @@
+[
+    {
+        "title" :"application to read and publish my novels",
+        "backgroundImg" :"/assets/projects/pandora.png",
+        "projectURL" :"https://pandora-web-phi.vercel.app",
+        "overview" :"An application where you can publish information about a personal novel written by me, there I can publish chapters where people can read them, it has a google login and logged in users can interact with the chapters by liking and adding them to their favorites and read lists, which you can review on your profile page. In addition to being able to comment on each chapter.",
+        "tecnologys" :"Nextjs, Firebase, TailwindCSS",
+        "deploy" :"true"
+    },
+    {
+        "title":"Functional Chat",
+            "backgroundImg":"/assets/projects/chat.png",
+            "projectURL":"https://boomerland-private-chat.netlify.app/",
+            "overview":"A functional chat application, made with Nextjs and firebase, allows users to login and send chats to other users and chat groups in real time, showing the time the message was sent.",
+            "tecnologys":"Nextjs, Firebase, TailwindCSS",
+            "deploy":"true"
+    },
+    {
+        "title":"Netflix Clon",
+            "backgroundImg":"/assets/projects/netflix.png",
+            "projectURL":"https://netflix-clon-dun.vercel.app",
+            "overview":"A netflix clone made with nextjs, typescript and tailwind CSS, made with the help of a movie API with which I can show the different trends, genres and other options.",
+            "tecnologys":"Nextjs, TailwindCSS",
+            "deploy":"true"
+    },
+    {
+        "title":"Chat con IA",
+            "backgroundImg":"/assets/projects/text.png",
+            "projectURL":"https://chat-openai.netlify.app",
+            "overview":"A chat application in which you can ask questions that will be answered with the help of the OpenAI api, is made with Nextjs and is based on the gp3 model with which ChatGPT works.",
+            "tecnologys":"Nextjs, Firebase, TailwindCSS",
+            "deploy":"true"
+    },
+    {
+        "title":"Ionic Rick and Morty",
+            "backgroundImg":"/assets/projects/ionic-ram.png",
+            "projectURL":"https://github.com/JohanLeon0914/ionic-rick-and-morty",
+            "overview":"The Ionic 7 and Angular app I created utilizes the Rick and Morty API to display characters. It features a search bar for easy character lookup and implements infinite scrolling. Users can search for their favorite characters by name, and as they type, the app dynamically filters the results. The infinite scrolling functionality allows for a seamless browsing experience, automatically fetching more character data as users scroll down the list. The app's interface is designed with Ionic 7's customizable UI components, ensuring a visually appealing and user-friendly experience. With just a tap, users can access detailed information about each character. In summary, this compact Ionic 7 and Angular app provides a convenient and immersive way for fans to explore the diverse cast of the Rick and Morty universe.",
+            "tecnologys":"Angular, Ionic7",
+            "deploy":"false"
+    },
+    {
+        "title":"CryptoTracker",
+            "backgroundImg":"/assets/projects/bot-whatsapp2.png",
+            "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
+            "overview":"An Angular application that can check prices and other data on cryptocurrencies with the help of an external API, has a search engine that filters cryptocurrencies.",
+            "tecnologys":"Angular, TailwindCSS",
+            "deploy":"true"
+    },
+    {
+        "title":"WhatsApp Bot",
+            "backgroundImg":"/assets/projects/criptos.png",
+            "projectURL":"https://angular-cryptomonedas.vercel.app",
+            "overview":"A chatbot with AI that is able to answer questions depending on the business for which you want to adapt, people can enter the bot's chat and ask questions related to the context (mostly businesses) for which it is programmed.",
+            "tecnologys":"Nodejs, OpenAI, @bot-whatsapp",
+            "deploy":"false"
+    },
+    {
+        "title":"Popetas Inventory",
+            "backgroundImg":"/assets/projects/popetas.png",
+            "projectURL":"https://crud-angular-firebase-5c874.web.app",
+            "overview":"A login made with the Auth0 library and deployed with NodeJS, which allows the user to log in with google and be able to give and remove session permissions and provide user registration. With which he has developed other projects taking this as a basis for managing sessions and records within the applications.",
+            "tecnologys":"Angular, Firebase, TailwindCSS",
+            "deploy":"false"
+    },
+    {
+        "title":"Login With Auth0",
+            "backgroundImg":"/assets/projects/auth.webp",
+            "projectURL":"https://github.com/JohanLeon0914/auth0Login",
+            "overview":"An application made for managing the inventory of a microenterprise in my city, which allows the user to do CRUD of all their products that they have in the two branches of their business.",
+            "tecnologys":"React, NodeJS, MySQL",
+            "deploy":"false"
+    },
+    {
+        "title":"Login With Auth0",
+            "backgroundImg":"/assets/projects/citas.png",
+            "projectURL":"https://github.com/JohanLeon0914/rentClient",
+            "overview":"Fullstack application which was made using Reactjs for the frontend and Nodejs for the backend, where a dating app is simulated with the possibility of logging in with google and seeing the other people who have registered on the page and sending requests for email appointments within the platform.",
+            "tecnologys":"React, NodeJS, Auth0",
+            "deploy":"false"
+    },
+    {
+        "title":"Stripe Project",
+            "backgroundImg":"/assets/projects/stripe.webp",
+            "projectURL":"https://github.com/JohanLeon0914/stripe-react",
+            "overview":"Website made in react and the use of a library called stripe, which allowed me to implement a credit card payment manager in different applications that I have created. It helps me to verify if a credit card is authentic.",
+            "tecnologys":"React",
+            "deploy":"false"
+    },
+    {
+        "title":"CryptoBot",
+            "backgroundImg":"/assets/projects/bot.png",
+            "projectURL":"https://github.com/JohanLeon0914/frontend-cryptobot",
+            "overview":"A telegram bot that allows users to track the cryptocurrencies of their preferences, so that the bot could send them news and price updates from time to time.",
+            "tecnologys":"Nextjs, Firebase, Nodejs, TailwindCSS",
+            "deploy":"false"
+    }
+]

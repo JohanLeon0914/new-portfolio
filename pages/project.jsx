@@ -45,7 +45,7 @@ const Project = () => {
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <p className="text-gray-600 py-2 flex items-center text-center p-4">
+            <p className="text-gray-400 py-2 flex items-center text-center p-4">
               {router.query.tecnologys}
             </p>
           </div>

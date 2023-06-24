@@ -6,7 +6,7 @@ import React from "react";
 function About() {
   const p = "// I am not your normal developer";
   const about =
-    "I am a frontend developer born in Colombia, who started his career to become a professional more than 4 years ago, at the Fransisco de Paula Santander University as a systems engineer, all these years I have been acquiring more and more knowledge in different projects Personal and from my university, you can see all these projects in this portfolio and by visiting my Github. I hope my capabilities meet your expectations and you connect with me.";
+    "Passionate frontend developer with over 4 years of professional experience. Skilled in creating engaging and user-friendly web applications. Graduated from Fransisco de Paula Santander University with a degree in Systems Engineering. Demonstrated expertise in various personal and university projects showcased in my portfolio and on Github. Seeking opportunities to utilize my skills and contribute to innovative projects.";
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
