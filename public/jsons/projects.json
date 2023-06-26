@@ -1,6 +1,6 @@
 [
     {
-        "title" :"application to read and publish my novels",
+        "title" :"application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
         "overview" :"An application where you can publish information about a personal novel written by me, there I can publish chapters where people can read them, it has a google login and logged in users can interact with the chapters by liking and adding them to their favorites and read lists, which you can review on your profile page. In addition to being able to comment on each chapter.",
@@ -21,6 +21,14 @@
             "projectURL":"https://netflix-clon-dun.vercel.app",
             "overview":"A netflix clone made with nextjs, typescript and tailwind CSS, made with the help of a movie API with which I can show the different trends, genres and other options.",
             "tecnologys":"Nextjs, TailwindCSS",
+            "deploy":"true"
+    },
+    {
+        "title":"Chatbot IA stream text",
+            "backgroundImg":"/assets/projects/chatbot-ia.png",
+            "projectURL":"https://chat-ai-kappa-one.vercel.app",
+            "overview":"The chatbot app built in Next.js and using the Versel JDK for AI with OpenAI is an innovative solution that allows users to interact with a personalized virtual assistant, acting as if it were Johan León. Users can ask questions about contact information and receive immediate and accurate responses. OpenAI's AI technology enables real-time text generation through Stream String, ensuring that the chatbot generates responses instantly as users input their questions or queries. This provides a seamless and natural conversational experience. The user interface of the app is intuitive and user-friendly. Users can interact with the chatbot by simply typing their questions into the text box and receiving instant responses on the screen. The app can also provide personalized information about Johan León, such as contact details, professional experience, and other relevant details.",
+            "tecnologys":"Nextjs, OpenAI, TailwindCSS, SDK IA Versel",
             "deploy":"true"
     },
     {
