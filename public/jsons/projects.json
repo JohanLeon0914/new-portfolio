@@ -48,6 +48,14 @@
             "deploy":"false"
     },
     {
+        "title":"Task App ionic",
+            "backgroundImg":"/assets/projects/task-app.png",
+            "projectURL":"https://github.com/JohanLeon0914/ionic-task-app",
+            "overview":"Task management application, in which you can mark task activities as done and see the progress of this task in the form of percentages. This app uses the firesotre cloud database and designed with ionic.",
+            "tecnologys":"Angular, Ionic7, firebase",
+            "deploy":"false"
+    },
+    {
         "title":"CryptoTracker",
             "backgroundImg":"/assets/projects/bot-whatsapp2.png",
             "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
