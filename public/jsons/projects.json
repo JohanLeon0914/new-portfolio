@@ -40,6 +40,14 @@
             "deploy":"true"
     },
     {
+        "title":"Ionic Store App",
+            "backgroundImg":"/assets/projects/store-ionic.png",
+            "projectURL":"https://github.com/JohanLeon0914/ionic-store",
+            "overview":"Online store application that has a role system for administrators and customer users, where administrators can publish and edit products within the store and customers can view and add products to their shopping cart, and then buy them by generating a invoice for all products in your cart.",
+            "tecnologys":"Angular, Ionic7",
+            "deploy":"false"
+    },
+    {
         "title":"Ionic Rick and Morty",
             "backgroundImg":"/assets/projects/ionic-ram.png",
             "projectURL":"https://github.com/JohanLeon0914/ionic-rick-and-morty",
@@ -54,6 +62,14 @@
             "overview":"Task management application, in which you can mark task activities as done and see the progress of this task in the form of percentages. This app uses the firesotre cloud database and designed with ionic.",
             "tecnologys":"Angular, Ionic7, firebase",
             "deploy":"false"
+    },
+    {
+        "title":"Chatbot IA: Ionic and Nodejs",
+            "backgroundImg":"/assets/projects/chat-bot-ionic.png",
+            "projectURL":"https://chat-ai-kappa-one.vercel.app",
+            "overview":"A chatbot application which consumes a nodejs api that allows users to answer questions using the openai 3.5 natural language model, which is consumed by an app made with Ionic+Angular where the user can chat with this model.",
+            "tecnologys":"Ionic, Angular, OpenAI, ",
+            "deploy":"true"
     },
     {
         "title":"CryptoTracker",
