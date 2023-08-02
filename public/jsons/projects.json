@@ -74,7 +74,7 @@
     {
         "title":"CryptoTracker",
             "backgroundImg":"/assets/projects/bot-whatsapp2.png",
-            "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
+            "projectURL":"https://angular-cryptomonedas.vercel.app",
             "overview":"An Angular application that can check prices and other data on cryptocurrencies with the help of an external API, has a search engine that filters cryptocurrencies.",
             "tecnologys":"Angular, TailwindCSS",
             "deploy":"true"
@@ -82,7 +82,7 @@
     {
         "title":"WhatsApp Bot",
             "backgroundImg":"/assets/projects/criptos.png",
-            "projectURL":"https://angular-cryptomonedas.vercel.app",
+            "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
             "overview":"A chatbot with AI that is able to answer questions depending on the business for which you want to adapt, people can enter the bot's chat and ask questions related to the context (mostly businesses) for which it is programmed.",
             "tecnologys":"Nodejs, OpenAI, @bot-whatsapp",
             "deploy":"false"
@@ -104,7 +104,7 @@
             "deploy":"false"
     },
     {
-        "title":"Login With Auth0",
+        "title":"Date App",
             "backgroundImg":"/assets/projects/citas.png",
             "projectURL":"https://github.com/JohanLeon0914/rentClient",
             "overview":"Fullstack application which was made using Reactjs for the frontend and Nodejs for the backend, where a dating app is simulated with the possibility of logging in with google and seeing the other people who have registered on the page and sending requests for email appointments within the platform.",
