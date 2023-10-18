@@ -51,6 +51,7 @@ function Contact() {
               <div className="py-2">
                 <h2>Johan León</h2>
                 <p>Front-End Developer</p>
+                <p><b>Phone number:</b> +57 3024725476</p>
                 <p className="py-4">
                   Talk to me if you are interested in me working on your project
                   or company

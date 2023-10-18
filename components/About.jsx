@@ -6,7 +6,7 @@ import React from "react";
 function About() {
   const p = "// I am not your normal developer";
   const about =
-    "Passionate frontend developer with over 4 years of professional experience. Skilled in creating engaging and user-friendly web applications. Graduated from Fransisco de Paula Santander University with a degree in Systems Engineering. Demonstrated expertise in various personal and university projects showcased in my portfolio and on Github. Seeking opportunities to utilize my skills and contribute to innovative projects.";
+    "Passionate Front-End developer with more than 4 years of experience in web development. Skilled in creating attractive and easy-to-use web applications. Currently studying Systems Engineering at the Francisco de Paula Santander University. I have demonstrable work experience, along with practical participation in personal and university projects.";
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">

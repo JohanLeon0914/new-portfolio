@@ -3,24 +3,16 @@
         "title" :"application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
-        "overview" :"An application where you can publish information about a personal novel written by me, there I can publish chapters where people can read them, it has a google login and logged in users can interact with the chapters by liking and adding them to their favorites and read lists, which you can review on your profile page. In addition to being able to comment on each chapter.",
+        "overview" :"I've developed a platform dedicated to sharing my personal novel, where I publish chapters for readers to enjoy. With integrated Google login functionality, users can easily access the content and enhance their reading experience. Once logged in, readers can interact with the chapters by liking, adding them to their favorites, and creating personalized read lists, all conveniently accessible from their profile page. Additionally, readers can engage with the story by leaving comments on each chapter, fostering a sense of community and connection within the platform.",
         "tecnologys" :"Nextjs, Firebase, TailwindCSS",
         "deploy" :"true"
-    },
-    {
-        "title":"Functional Chat",
-            "backgroundImg":"/assets/projects/chat.png",
-            "projectURL":"https://boomerland-private-chat.netlify.app/",
-            "overview":"A functional chat application, made with Nextjs and firebase, allows users to login and send chats to other users and chat groups in real time, showing the time the message was sent.",
-            "tecnologys":"Nextjs, Firebase, TailwindCSS",
-            "deploy":"true"
     },
     {
         "title":"Netflix Clon",
             "backgroundImg":"/assets/projects/netflix.png",
             "projectURL":"https://netflix-clon-dun.vercel.app",
-            "overview":"A netflix clone made with nextjs, typescript and tailwind CSS, made with the help of a movie API with which I can show the different trends, genres and other options.",
-            "tecnologys":"Nextjs, TailwindCSS",
+            "overview":"I created a Netflix-inspired project that goes beyond the basic streaming experience. This platform, developed using modern web technologies, allows users to explore an extensive library of movies and TV shows. It offers features such as watching trailers, user registration, and login, enhancing the overall entertainment experience. By integrating a robust movie API, users can dive into a world of diverse content, from trending releases to various genres and more. The platform's user-friendly design and advanced functionalities provide a seamless and enjoyable movie-watching experience.",
+            "tecnologys":"Nextjs, TailwindCSS, Firebase",
             "deploy":"true"
     },
     {
@@ -32,10 +24,10 @@
             "deploy":"true"
     },
     {
-        "title":"Chat con IA",
-            "backgroundImg":"/assets/projects/text.png",
-            "projectURL":"https://chat-openai.netlify.app",
-            "overview":"A chat application in which you can ask questions that will be answered with the help of the OpenAI api, is made with Nextjs and is based on the gp3 model with which ChatGPT works.",
+        "title":"Functional Chat",
+            "backgroundImg":"/assets/projects/chat.png",
+            "projectURL":"https://boomerland-private-chat.netlify.app/",
+            "overview":"I've developed a functional chat application that allows users to log in and send real-time messages to both individual users and chat groups. The app also timestamps each message, providing a seamless and interactive chat experience.",
             "tecnologys":"Nextjs, Firebase, TailwindCSS",
             "deploy":"true"
     },
@@ -44,7 +36,7 @@
             "backgroundImg":"/assets/projects/store-ionic.png",
             "projectURL":"https://github.com/JohanLeon0914/ionic-store",
             "overview":"Online store application that has a role system for administrators and customer users, where administrators can publish and edit products within the store and customers can view and add products to their shopping cart, and then buy them by generating a invoice for all products in your cart.",
-            "tecnologys":"Angular, Ionic7",
+            "tecnologys":"Angular, Ionic7, Firebase",
             "deploy":"false"
     },
     {
@@ -68,7 +60,7 @@
             "backgroundImg":"/assets/projects/chat-bot-ionic.png",
             "projectURL":"https://chat-ai-kappa-one.vercel.app",
             "overview":"A chatbot application which consumes a nodejs api that allows users to answer questions using the openai 3.5 natural language model, which is consumed by an app made with Ionic+Angular where the user can chat with this model.",
-            "tecnologys":"Ionic, Angular, OpenAI, ",
+            "tecnologys":"Ionic, Angular, OpenAI, Nodejs",
             "deploy":"true"
     },
     {
@@ -101,14 +93,6 @@
             "projectURL":"https://github.com/JohanLeon0914/auth0Login",
             "overview":"An application made for managing the inventory of a microenterprise in my city, which allows the user to do CRUD of all their products that they have in the two branches of their business.",
             "tecnologys":"React, NodeJS, MySQL",
-            "deploy":"false"
-    },
-    {
-        "title":"Date App",
-            "backgroundImg":"/assets/projects/citas.png",
-            "projectURL":"https://github.com/JohanLeon0914/rentClient",
-            "overview":"Fullstack application which was made using Reactjs for the frontend and Nodejs for the backend, where a dating app is simulated with the possibility of logging in with google and seeing the other people who have registered on the page and sending requests for email appointments within the platform.",
-            "tecnologys":"React, NodeJS, Auth0",
             "deploy":"false"
     },
     {
