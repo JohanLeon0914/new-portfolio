@@ -16,6 +16,14 @@
             "deploy":"true"
     },
     {
+        "title":"Gym App",
+            "backgroundImg":"/assets/projects/gym.jpg",
+            "projectURL":"https://github.com/JohanLeon0914/new-portfolio",
+            "overview":"Application created for the management of your gym routines, I created this app so that you can design your own routines, save them and track the days in which you completed them, what exercises you did, repetitions and among other routine management options.",
+            "tecnologys":"Nextjs, TailwindCSS, Firebase",
+            "deploy":"false"
+    },
+    {
         "title":"Chatbot IA stream text",
             "backgroundImg":"/assets/projects/chatbot-ia.png",
             "projectURL":"https://chat-ai-kappa-one.vercel.app",
