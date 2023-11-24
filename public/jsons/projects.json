@@ -8,7 +8,7 @@
         "deploy" :"true"
     },
     {
-        "title" :"application to read and publish my novel",
+        "title" :"Application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
         "overview" :"I've developed a platform dedicated to sharing my personal novel, where I publish chapters for readers to enjoy. With integrated Google login functionality, users can easily access the content and enhance their reading experience. Once logged in, readers can interact with the chapters by liking, adding them to their favorites, and creating personalized read lists, all conveniently accessible from their profile page. Additionally, readers can engage with the story by leaving comments on each chapter, fostering a sense of community and connection within the platform.",
