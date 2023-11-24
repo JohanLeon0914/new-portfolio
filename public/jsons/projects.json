@@ -1,5 +1,13 @@
 [
     {
+        "title" :"Ecommerce Next14",
+        "backgroundImg" :"/assets/projects/ecommerce.jpg",
+        "projectURL" :"https://ecommerce-next14.vercel.app",
+        "overview" :"A robust and feature-rich e-commerce platform designed for seamless online transactions. This platform not only facilitates secure credit card payments but also enhances user experience by incorporating convenient login options through Google and GitHub, ensuring swift and reliable user identification.",
+        "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
+        "deploy" :"true"
+    },
+    {
         "title" :"application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
