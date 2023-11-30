@@ -8,6 +8,14 @@
         "deploy" :"true"
     },
     {
+        "title" :"Amazon Clone",
+        "backgroundImg" :"/assets/projects/amazon.jpg",
+        "projectURL" :"https://amazon-clone-delta-peach.vercel.app",
+        "overview" :"Perfectly functional Amazon clone with its own shopping gateway, real-time product search and user authentication through Google.",
+        "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
+        "deploy" :"true"
+    },
+    {
         "title" :"Application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
