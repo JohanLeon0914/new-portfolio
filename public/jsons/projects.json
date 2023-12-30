@@ -8,6 +8,14 @@
         "deploy" :"true"
     },
     {
+        "title" :"Payload Ecommerce",
+        "backgroundImg" :"/assets/projects/payload-ecommerce.png",
+        "projectURL" :"https://github.com/JohanLeon0914/ecommerce",
+        "overview" :"This application is built upon the open-source project 'payload,' providing a template for creating an e-commerce platform with an administrator dashboard. The dashboard incorporates CMS-like functionalities, allowing for the uploading, editing, and deletion of products and pages within the application without the need for coding.",
+        "tecnologys" :"Nextjs, Stripe, TailwindCSS, Payload",
+        "deploy" :"false"
+    },
+    {
         "title" :"Amazon Clone",
         "backgroundImg" :"/assets/projects/amazon.jpg",
         "projectURL" :"https://amazon-clone-delta-peach.vercel.app",
