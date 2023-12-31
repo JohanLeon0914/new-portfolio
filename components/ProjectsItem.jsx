@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-function ProjectsItem({ title, backgroundImg, projectURL, overview, tecnologys, deploy }) {
+function ProjectsItem({ title, backgroundImg, projectURL, overview, tecnologys, deploy, images }) {
+  console.log(images)
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-t from-[#5651e5] to-[#709dff]">
       <img
@@ -25,7 +26,8 @@ function ProjectsItem({ title, backgroundImg, projectURL, overview, tecnologys, 
               projectURL,
               overview,
               tecnologys,
-              deploy
+              deploy,
+              images: Array.isArray(images) ? images : (typeof images === 'string' ? [images] : []),
             },
           }}
         >

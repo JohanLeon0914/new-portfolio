@@ -13,7 +13,8 @@
         "projectURL" :"https://github.com/JohanLeon0914/ecommerce",
         "overview" :"This application is built upon the open-source project 'payload,' providing a template for creating an e-commerce platform with an administrator dashboard. The dashboard incorporates CMS-like functionalities, allowing for the uploading, editing, and deletion of products and pages within the application without the need for coding.",
         "tecnologys" :"Nextjs, Stripe, TailwindCSS, Payload",
-        "deploy" :"false"
+        "deploy" :"false",
+        "images": ["/assets/projects/payload/categories.png", "/assets/projects/payload/shop.png", "/assets/projects/payload/product_detail.png","/assets/projects/payload/dashboard.png", "/assets/projects/payload/dashboard_categories.png", "/assets/projects/payload/dashboard_media.png", "/assets/projects/payload/dashboard_products.png"]
     },
     {
         "title" :"Amazon Clone",

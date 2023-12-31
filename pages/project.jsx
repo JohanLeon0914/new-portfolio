@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Slider from "react-slick";
 
 const Project = () => {
   const router = useRouter();
@@ -42,6 +43,7 @@ const Project = () => {
             </a>
           )}
         </div>
+        {/* Technologies */}
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
@@ -50,9 +52,39 @@ const Project = () => {
             </p>
           </div>
         </div>
+
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
+      </div>
+      <div>
+      {router.query.images && router.query.images.length > 0 && (
+      <div className="p-2 mb-8">
+        <p className="text-center text-lg font-bold mb-4 mt-4">Images</p>
+        <div className="flex items-center justify-center">
+          <Slider
+            dots={true}
+            infinite={true}
+            speed={500}
+            slidesToShow={1}
+            slidesToScroll={1}
+            className="w-[80%] mb-4"
+          >
+            {router.query.images.map((imageUrl, index) => (
+              <div key={index} className="w-full">
+                <Image
+                  src={imageUrl}
+                  alt={`Image ${index + 1}`}
+                  width={1500}
+                  height={600}
+                  className="rounded-lg"
+                />
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    )}
       </div>
     </div>
   );

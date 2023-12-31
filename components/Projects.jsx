@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import ProjectsItem from "./ProjectsItem";
 
 function Projects() {
+  console.log(projects)
   const h2 = "What I've Built?";
   const initialProjectsToShow = 6;
   const [projectsToShow, setProjectsToShow] = useState(initialProjectsToShow);
@@ -28,6 +29,7 @@ function Projects() {
               overview={project.overview}
               tecnologys={project.tecnologys}
               deploy={project.deploy}
+              images={project.images}
             />
           ))}
         </div>
