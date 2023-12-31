@@ -60,7 +60,7 @@ const Project = () => {
       <div>
       {router.query.images && router.query.images.length > 0 && (
       <div className="p-2 mb-8">
-        <p className="text-center text-lg font-bold mb-4 mt-4">Images</p>
+        <p className="text-center text-lg font-bold mb-4 mt-4">Project Images</p>
         <div className="flex items-center justify-center">
           <Slider
             dots={true}
