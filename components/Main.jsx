@@ -1,11 +1,24 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { AiOutlineMail } from "react-icons/ai";
+import { MdPictureAsPdf } from "react-icons/md";
 import { FaLinkedin, FaGithub, FaGitlab } from "react-icons/fa";
 import Link from "next/link";
 
 function Main() {
   const hi = "Hi, I'm ";
+  const handleDownload = () => {
+    // Assuming the PDF file is in the public folder
+    const certificateUrl = "/johan_leon_cv.pdf";
+
+    // Trigger download
+    const link = document.createElement("a");
+    link.href = certificateUrl;
+    link.download = "johan_leon_cv.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const presentation =
     "I'm a Systems Engineer student with experience in Full Stack web development, focusing especially on the Front-End area. I constantly seek fresh challenges and actively learn from every experience to foster my professional growth.";
 
@@ -59,6 +72,13 @@ function Main() {
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
             >
               <AiOutlineMail />
+            </Link>
+            <Link
+              onClick={handleDownload}
+              href="#home"
+              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <MdPictureAsPdf />
             </Link>
           </div>
         </div>
