@@ -76,13 +76,6 @@ function Contact() {
                     <FaGithub />
                   </Link>
                   <Link
-                    href="https://gitlab.com/johanalbertols"
-                    target="_blank"
-                    className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-                  >
-                    <FaGitlab />
-                  </Link>
-                  <Link
                     href="#contact"
                     className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
                   >
