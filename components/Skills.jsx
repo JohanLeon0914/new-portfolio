@@ -110,10 +110,10 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/Nextjs.png"
+                  src="/assets/skills/Next.js.png"
                   alt="nextjs"
-                  width={64}
-                  height={64}
+                  width={105}
+                  height={105}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
