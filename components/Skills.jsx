@@ -110,7 +110,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/nextjs.png"
+                  src="/assets/skills/Nextjs.png"
                   alt="nextjs"
                   width={64}
                   height={64}
@@ -222,7 +222,7 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/github1.png"
+                  src="/assets/skills/github-mark-white.png"
                   alt="github"
                   width={64}
                   height={64}

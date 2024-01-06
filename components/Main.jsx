@@ -26,6 +26,9 @@ function Main() {
           <p className="uppercase text-sm tracking-widest text-gray-400">
             Lets build something together
           </p>
+          <p className="uppercase text-sm tracking-widest text-gray-400 mb-2">
+            johanleon991@gmail.com
+          </p>
           <h1>
             {hi} <span className="text-[#5651e5]">Johan León</span>
           </h1>

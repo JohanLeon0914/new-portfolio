@@ -95,6 +95,9 @@ function Navbar() {
               <p className="w-[85%] md:w-[90%] py-4">
                 Lets build something legendary together
               </p>
+              <p className="w-[85%] md:w-[90%] py-4">
+                johanleon991@gmail.com
+              </p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -126,10 +129,7 @@ function Navbar() {
                 <Link href="https://github.com/JohanLeon0914" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
                 </Link>
-                <Link href="#contact" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGitlab />
-                </Link>
-                <Link href="https://gitlab.com/johanalbertols" target='_blank' className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                <Link href="#contact" onClick={() => setNav(false)} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiOutlineMail />
                 </Link>
               </div>
