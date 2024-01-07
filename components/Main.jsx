@@ -8,7 +8,6 @@ import Link from "next/link";
 function Main() {
   const hi = "Hi, I'm ";
   const handleDownload = () => {
-    // Assuming the PDF file is in the public folder
     const certificateUrl = "/johan_leon_cv.pdf";
 
     // Trigger download
