@@ -33,7 +33,15 @@
         "deploy" :"true"
     },
     {
-        "title":"Netflix Clon",
+        "title":"Disney+ Clone With AI assistant",
+            "backgroundImg":"/assets/projects/disney-clone.jpg",
+            "projectURL":"https://disney-clone-three-brown.vercel.app",
+            "overview":"This project is an inspired recreation of Disney+, implementing modern technologies and an intelligent assistance layer powered by the OpenAI API. Developed entirely with Next.js, the Disney+ Clone delivers a familiar yet innovative experience for users.",
+            "tecnologys":"Nextjs, TailwindCSS, OpenAI",
+            "deploy":"true"
+    },
+    {
+        "title":"Netflix Clone",
             "backgroundImg":"/assets/projects/netflix.png",
             "projectURL":"https://netflix-clon-dun.vercel.app",
             "overview":"I created a Netflix-inspired project that goes beyond the basic streaming experience. This platform, developed using modern web technologies, allows users to explore an extensive library of movies and TV shows. It offers features such as watching trailers, user registration, and login, enhancing the overall entertainment experience. By integrating a robust movie API, users can dive into a world of diverse content, from trending releases to various genres and more. The platform's user-friendly design and advanced functionalities provide a seamless and enjoyable movie-watching experience.",
