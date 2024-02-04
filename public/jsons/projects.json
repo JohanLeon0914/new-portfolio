@@ -20,7 +20,7 @@
         "title" :"Amazon Clone",
         "backgroundImg" :"/assets/projects/amazon.jpg",
         "projectURL" :"https://amazon-clone-delta-peach.vercel.app",
-        "overview" :"Perfectly functional Amazon clone with its own shopping gateway, real-time product search and user authentication through Google.",
+        "overview" :"A flawlessly operational Amazon-inspired replica, implemented with a dedicated shopping gateway via Strike. This replica boasts features that allow logged-in users to seamlessly add products to their carts, bookmark items as favorites, and efficiently search for products within the e-commerce platform. User authentication is seamlessly facilitated through Google.",
         "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
         "deploy" :"true"
     },
