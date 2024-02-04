@@ -25,6 +25,15 @@
         "deploy" :"true"
     },
     {
+        "title" :"Figma Clone",
+        "backgroundImg" :"/assets/projects/figma.jpg",
+        "projectURL" :"https://figma-clone-sand.vercel.app",
+        "overview" :"An interactive and collaborative application, akin to Figma, featuring essential design functionalities. This platform enables users to collaboratively engage in real-time design activities, fostering seamless communication through comments, reactions, and chat functionalities with other users.",
+        "tecnologys" :"Nextjs, TailwindCSS, Liveblocks, Shadcn",
+        "deploy" :"true"
+    },
+    
+    {
         "title" :"Application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
