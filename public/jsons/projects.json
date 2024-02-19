@@ -2,7 +2,8 @@
     {
         "title" :"Ecommerce Next14",
         "backgroundImg" :"/assets/projects/ecommerce.jpg",
-        "projectURL" :"https://ecommerce-next14.vercel.app",
+        "projectURL": "https://ecommerce-next14.vercel.app",
+        "code": "https://github.com/JohanLeon0914/ecommerce-next14",
         "overview" :"A robust and feature-rich e-commerce platform designed for seamless online transactions. This platform not only facilitates secure credit card payments but also enhances user experience by incorporating convenient login options through Google and GitHub, ensuring swift and reliable user identification.",
         "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
         "deploy" :"true"
@@ -20,6 +21,7 @@
         "title" :"Amazon Clone",
         "backgroundImg" :"/assets/projects/amazon.jpg",
         "projectURL" :"https://amazon-clone-delta-peach.vercel.app",
+        "code": "https://github.com/JohanLeon0914/amazon-clone",
         "overview" :"A flawlessly operational Amazon-inspired replica, implemented with a dedicated shopping gateway via Strike. This replica boasts features that allow logged-in users to seamlessly add products to their carts, bookmark items as favorites, and efficiently search for products within the e-commerce platform. User authentication is seamlessly facilitated through Google.",
         "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
         "deploy" :"true"
@@ -28,42 +30,54 @@
         "title" :"Figma Clone",
         "backgroundImg" :"/assets/projects/figma.jpg",
         "projectURL" :"https://figma-clone-sand.vercel.app",
+        "code": "https://github.com/JohanLeon0914/figma-clone",
         "overview" :"An interactive and collaborative application, akin to Figma, featuring essential design functionalities. This platform enables users to collaboratively engage in real-time design activities, fostering seamless communication through comments, reactions, and chat functionalities with other users.",
         "tecnologys" :"Nextjs, TailwindCSS, Liveblocks, Shadcn",
         "deploy" :"true"
     },
-    
+    {
+        "title" :"AI Image Editor",
+        "backgroundImg" :"/assets/projects/imaginify.jpg",
+        "projectURL" :"https://imaginify-ashen.vercel.app",
+        "code": "https://github.com/JohanLeon0914/imaginify",
+        "overview" :"I've developed an AI-powered image editor called 'IA Assistant' which offers various image editing features such as restoration, object removal, recoloring, and background removal. Users can access these features through a monthly credit subscription plan. There are multiple subscription packages available, including a free option for those who want to try out the service. The image editing capabilities are made possible through an AI service provided by 'Cloudinary.' This service enables all the mentioned AI image editing options. Additionally, I've integrated Stripe for handling the monthly payment options for the different subscription plans.",
+        "tecnologys" :"Nextjs, Stripe, MongoDB, Cloudinary, TailwindCSS, Shadcn",
+        "deploy" :"true"
+    },
     {
         "title" :"Application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
+        "code": "https://github.com/JohanLeon0914/pandora-web",
         "overview" :"I've developed a platform dedicated to sharing my personal novel, where I publish chapters for readers to enjoy. With integrated Google login functionality, users can easily access the content and enhance their reading experience. Once logged in, readers can interact with the chapters by liking, adding them to their favorites, and creating personalized read lists, all conveniently accessible from their profile page. Additionally, readers can engage with the story by leaving comments on each chapter, fostering a sense of community and connection within the platform.",
         "tecnologys" :"Nextjs, Firebase, TailwindCSS",
         "deploy" :"true"
     },
     {
         "title":"Disney+ Clone With AI assistant",
-            "backgroundImg":"/assets/projects/disney-clone.jpg",
-            "projectURL":"https://disney-clone-three-brown.vercel.app",
-            "overview":"This project is an inspired recreation of Disney+, implementing modern technologies and an intelligent assistance layer powered by the OpenAI API. Developed entirely with Next.js, the Disney+ Clone delivers a familiar yet innovative experience for users.",
-            "tecnologys":"Nextjs, TailwindCSS, OpenAI",
-            "deploy":"true"
+        "backgroundImg":"/assets/projects/disney-clone.jpg",
+        "projectURL":"https://disney-clone-three-brown.vercel.app",
+        "code": "https://github.com/JohanLeon0914/disney-clone",
+        "overview":"This project is an inspired recreation of Disney+, implementing modern technologies and an intelligent assistance layer powered by the OpenAI API. Developed entirely with Next.js, the Disney+ Clone delivers a familiar yet innovative experience for users.",
+        "tecnologys":"Nextjs, TailwindCSS, OpenAI",
+        "deploy":"true"
     },
     {
         "title":"Netflix Clone",
-            "backgroundImg":"/assets/projects/netflix.png",
-            "projectURL":"https://netflix-clon-dun.vercel.app",
-            "overview":"I created a Netflix-inspired project that goes beyond the basic streaming experience. This platform, developed using modern web technologies, allows users to explore an extensive library of movies and TV shows. It offers features such as watching trailers, user registration, and login, enhancing the overall entertainment experience. By integrating a robust movie API, users can dive into a world of diverse content, from trending releases to various genres and more. The platform's user-friendly design and advanced functionalities provide a seamless and enjoyable movie-watching experience.",
-            "tecnologys":"Nextjs, TailwindCSS, Firebase",
-            "deploy":"true"
+        "backgroundImg":"/assets/projects/netflix.png",
+        "projectURL":"https://netflix-clon-dun.vercel.app",
+        "code": "https://github.com/JohanLeon0914/netflix-clon-nextjs-typescript",
+        "overview":"I created a Netflix-inspired project that goes beyond the basic streaming experience. This platform, developed using modern web technologies, allows users to explore an extensive library of movies and TV shows. It offers features such as watching trailers, user registration, and login, enhancing the overall entertainment experience. By integrating a robust movie API, users can dive into a world of diverse content, from trending releases to various genres and more. The platform's user-friendly design and advanced functionalities provide a seamless and enjoyable movie-watching experience.",
+        "tecnologys":"Nextjs, TailwindCSS, Firebase",
+        "deploy":"true"
     },
     {
         "title":"Gym App",
-            "backgroundImg":"/assets/projects/gym.jpg",
-            "projectURL":"https://github.com/JohanLeon0914/new-portfolio",
-            "overview":"Application created for the management of your gym routines, I created this app so that you can design your own routines, save them and track the days in which you completed them, what exercises you did, repetitions and among other routine management options.",
-            "tecnologys":"Nextjs, TailwindCSS, Firebase",
-            "deploy":"false"
+        "backgroundImg":"/assets/projects/gym.jpg",
+        "projectURL":"https://github.com/JohanLeon0914/new-portfolio",
+        "overview":"Application created for the management of your gym routines, I created this app so that you can design your own routines, save them and track the days in which you completed them, what exercises you did, repetitions and among other routine management options.",
+        "tecnologys":"Nextjs, TailwindCSS, Firebase",
+        "deploy":"false"
     },
     {
         "title":"Chatbot IA stream text",
@@ -114,51 +128,11 @@
             "deploy":"true"
     },
     {
-        "title":"CryptoTracker",
-            "backgroundImg":"/assets/projects/criptos.png",
-            "projectURL":"https://angular-cryptomonedas.vercel.app",
-            "overview":"An Angular application that can check prices and other data on cryptocurrencies with the help of an external API, has a search engine that filters cryptocurrencies.",
-            "tecnologys":"Angular, TailwindCSS",
-            "deploy":"true"
-    },
-    {
         "title":"WhatsApp Bot",
             "backgroundImg":"/assets/projects/bot-whatsapp2.png",
             "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
             "overview":"A chatbot with AI that is able to answer questions depending on the business for which you want to adapt, people can enter the bot's chat and ask questions related to the context (mostly businesses) for which it is programmed.",
             "tecnologys":"Nodejs, OpenAI, @bot-whatsapp",
-            "deploy":"false"
-    },
-    {
-        "title":"Popetas Inventory",
-            "backgroundImg":"/assets/projects/popetas.png",
-            "projectURL":"https://crud-angular-firebase-5c874.web.app",
-            "overview":"A login made with the Auth0 library and deployed with NodeJS, which allows the user to log in with google and be able to give and remove session permissions and provide user registration. With which he has developed other projects taking this as a basis for managing sessions and records within the applications.",
-            "tecnologys":"Angular, Firebase, TailwindCSS",
-            "deploy":"false"
-    },
-    {
-        "title":"Login With Auth0",
-            "backgroundImg":"/assets/projects/auth.webp",
-            "projectURL":"https://github.com/JohanLeon0914/auth0Login",
-            "overview":"An application made for managing the inventory of a microenterprise in my city, which allows the user to do CRUD of all their products that they have in the two branches of their business.",
-            "tecnologys":"React, NodeJS, MySQL",
-            "deploy":"false"
-    },
-    {
-        "title":"Stripe Project",
-            "backgroundImg":"/assets/projects/stripe.webp",
-            "projectURL":"https://github.com/JohanLeon0914/stripe-react",
-            "overview":"Website made in react and the use of a library called stripe, which allowed me to implement a credit card payment manager in different applications that I have created. It helps me to verify if a credit card is authentic.",
-            "tecnologys":"React",
-            "deploy":"false"
-    },
-    {
-        "title":"CryptoBot",
-            "backgroundImg":"/assets/projects/bot.png",
-            "projectURL":"https://github.com/JohanLeon0914/frontend-cryptobot",
-            "overview":"A telegram bot that allows users to track the cryptocurrencies of their preferences, so that the bot could send them news and price updates from time to time.",
-            "tecnologys":"Nextjs, Firebase, Nodejs, TailwindCSS",
             "deploy":"false"
     }
 ]

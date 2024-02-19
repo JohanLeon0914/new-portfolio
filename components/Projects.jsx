@@ -25,6 +25,7 @@ function Projects() {
               title={project.title}
               backgroundImg={project.backgroundImg}
               projectURL={project.projectURL}
+              code={project.code}
               overview={project.overview}
               tecnologys={project.tecnologys}
               deploy={project.deploy}

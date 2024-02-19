@@ -33,10 +33,23 @@ const Project = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>{router.query.overview}</p>
-          {router.query.deploy ? (
-            <a href={router.query.projectURL} target="_blank" rel="noreferrer">
-              <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-            </a>
+          {router.query.deploy === "true" ? (
+            <>
+              <a
+                href={router.query.projectURL}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+              </a>
+              <a
+                href={router.query.code}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="px-8 py-2 mt-4 mr-8">Code</button>
+              </a>
+            </>
           ) : (
             <a href={router.query.projectURL} target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4 mr-8">Code</button>
@@ -58,33 +71,35 @@ const Project = () => {
         </Link>
       </div>
       <div>
-      {router.query.images && router.query.images.length > 0 && (
-      <div className="p-2 mb-8">
-        <p className="text-center text-lg font-bold mb-4 mt-4">Project Images</p>
-        <div className="flex items-center justify-center">
-          <Slider
-            dots={true}
-            infinite={true}
-            speed={500}
-            slidesToShow={1}
-            slidesToScroll={1}
-            className="w-[80%] mb-4"
-          >
-            {router.query.images.map((imageUrl, index) => (
-              <div key={index} className="w-full">
-                <Image
-                  src={imageUrl}
-                  alt={`Image ${index + 1}`}
-                  width={1500}
-                  height={600}
-                  className="rounded-lg"
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </div>
-    )}
+        {router.query.images && router.query.images.length > 0 && (
+          <div className="p-2 mb-8">
+            <p className="text-center text-lg font-bold mb-4 mt-4">
+              Project Images
+            </p>
+            <div className="flex items-center justify-center">
+              <Slider
+                dots={true}
+                infinite={true}
+                speed={500}
+                slidesToShow={1}
+                slidesToScroll={1}
+                className="w-[80%] mb-4"
+              >
+                {router.query.images.map((imageUrl, index) => (
+                  <div key={index} className="w-full">
+                    <Image
+                      src={imageUrl}
+                      alt={`Image ${index + 1}`}
+                      width={1500}
+                      height={600}
+                      className="rounded-lg"
+                    />
+                  </div>
+                ))}
+              </Slider>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
