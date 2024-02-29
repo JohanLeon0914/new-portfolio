@@ -126,8 +126,8 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/astro.svg"
-                  alt="nextjs"
+                  src="/assets/skills/astro.png"
+                  alt="astro"
                   width={105}
                   height={105}
                 />
