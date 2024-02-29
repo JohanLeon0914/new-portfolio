@@ -1,5 +1,14 @@
 [
     {
+        "title" :"Spotify Clone Astro",
+        "backgroundImg" :"/assets/projects/spotify.jpg",
+        "projectURL": "https://spotify-clone-alpha-green.vercel.app",
+        "code": "https://github.com/JohanLeon0914/spotify-clone",
+        "overview" :"I developed a Spotify clone using the Astro web framework, leveraging the open-source project by YouTuber Midudev, accessible at: https://github.com/midudev/spotify-twitch-clone. In addition to incorporating core features from the original, such as autoplay, playlist song selection, and shuffle mode, I enhanced it with a fully responsive design. Furthermore, I addressed and rectified any errors present in the original codebase",
+        "tecnologys" :"Astro, Zustand, TailwindCSS",
+        "deploy" :"true"
+    },
+    {
         "title" :"Ecommerce Next14",
         "backgroundImg" :"/assets/projects/ecommerce.jpg",
         "projectURL": "https://ecommerce-next14.vercel.app",
