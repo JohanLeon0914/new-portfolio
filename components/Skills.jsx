@@ -80,8 +80,8 @@ function Skills() {
                 <Image
                   src="/assets/skills/react.png"
                   alt="react"
-                  width={64}
-                  height={64}
+                  width={94}
+                  height={94}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -96,8 +96,8 @@ function Skills() {
                 <Image
                   src="/assets/skills/angular.png"
                   alt="angular"
-                  width={64}
-                  height={64}
+                  width={94}
+                  height={94}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -110,10 +110,10 @@ function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/Next.js.png"
+                  src="/assets/skills/nextjs.svg"
                   alt="nextjs"
-                  width={105}
-                  height={105}
+                  width={94}
+                  height={94}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
