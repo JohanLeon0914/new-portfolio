@@ -45,6 +45,15 @@
         "deploy" :"true"
     },
     {
+        "title" :"IdolES Vtubers Fanpages",
+        "backgroundImg" :"/assets/projects/fanpages.jpg",
+        "projectURL" :"https://twitter.com/JohanL34838558/status/1789771529980428333",
+        "overview" :"5 fanpages made for vtubers from the company 'IdolES', which were all made in Astro, a project in which I managed to learn a lot about the correct functioning of the tailwindcss framework and the use of functional components in react within Astro.",
+        "tecnologys" :"Astro, Swiper, TailwindCSS",
+        "deploy" :"true",
+        "images": ["/assets/projects/fanpages/1.jpg", "/assets/projects/fanpages/2.png", "/assets/projects/fanpages/3.jpg","/assets/projects/fanpages/4.jpg"]
+    },
+    {
         "title" :"Figma Clone",
         "backgroundImg" :"/assets/projects/figma.jpg",
         "projectURL" :"https://figma-clone-sand.vercel.app",
