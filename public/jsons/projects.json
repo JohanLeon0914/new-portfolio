@@ -45,15 +45,6 @@
         "deploy" :"true"
     },
     {
-        "title" :"IdolES Vtubers Fanpages",
-        "backgroundImg" :"/assets/projects/fanpages.jpg",
-        "projectURL" :"https://twitter.com/JohanL34838558/status/1789771529980428333",
-        "overview" :"5 fanpages made for vtubers from the company 'IdolES', which were all made in Astro, a project in which I managed to learn a lot about the correct functioning of the tailwindcss framework and the use of functional components in react within Astro.",
-        "tecnologys" :"Astro, Swiper, TailwindCSS",
-        "deploy" :"true",
-        "images": ["/assets/projects/fanpages/1.jpg", "/assets/projects/fanpages/2.png", "/assets/projects/fanpages/3.jpg","/assets/projects/fanpages/4.jpg"]
-    },
-    {
         "title" :"Figma Clone",
         "backgroundImg" :"/assets/projects/figma.jpg",
         "projectURL" :"https://figma-clone-sand.vercel.app",
@@ -115,35 +106,11 @@
             "deploy":"true"
     },
     {
-        "title":"Functional Chat",
-            "backgroundImg":"/assets/projects/chat.png",
-            "projectURL":"https://boomerland-private-chat.netlify.app/",
-            "overview":"I've developed a functional chat application that allows users to log in and send real-time messages to both individual users and chat groups. The app also timestamps each message, providing a seamless and interactive chat experience.",
-            "tecnologys":"Nextjs, Firebase, TailwindCSS",
-            "deploy":"true"
-    },
-    {
         "title":"Ionic Store App",
             "backgroundImg":"/assets/projects/store-ionic.png",
             "projectURL":"https://github.com/JohanLeon0914/ionic-store",
             "overview":"Online store application that has a role system for administrators and customer users, where administrators can publish and edit products within the store and customers can view and add products to their shopping cart, and then buy them by generating a invoice for all products in your cart.",
             "tecnologys":"Angular, Ionic7, Firebase",
-            "deploy":"false"
-    },
-    {
-        "title":"Ionic Rick and Morty",
-            "backgroundImg":"/assets/projects/ionic-ram.png",
-            "projectURL":"https://github.com/JohanLeon0914/ionic-rick-and-morty",
-            "overview":"The Ionic 7 and Angular app I created utilizes the Rick and Morty API to display characters. It features a search bar for easy character lookup and implements infinite scrolling. Users can search for their favorite characters by name, and as they type, the app dynamically filters the results. The infinite scrolling functionality allows for a seamless browsing experience, automatically fetching more character data as users scroll down the list. The app's interface is designed with Ionic 7's customizable UI components, ensuring a visually appealing and user-friendly experience. With just a tap, users can access detailed information about each character. In summary, this compact Ionic 7 and Angular app provides a convenient and immersive way for fans to explore the diverse cast of the Rick and Morty universe.",
-            "tecnologys":"Angular, Ionic7",
-            "deploy":"false"
-    },
-    {
-        "title":"Task App ionic",
-            "backgroundImg":"/assets/projects/task-app.png",
-            "projectURL":"https://github.com/JohanLeon0914/ionic-task-app",
-            "overview":"Task management application, in which you can mark task activities as done and see the progress of this task in the form of percentages. This app uses the firesotre cloud database and designed with ionic.",
-            "tecnologys":"Angular, Ionic7, firebase",
             "deploy":"false"
     },
     {
@@ -153,13 +120,5 @@
             "overview":"A chatbot application which consumes a nodejs api that allows users to answer questions using the openai 3.5 natural language model, which is consumed by an app made with Ionic+Angular where the user can chat with this model.",
             "tecnologys":"Ionic, Angular, OpenAI, Nodejs",
             "deploy":"true"
-    },
-    {
-        "title":"WhatsApp Bot",
-            "backgroundImg":"/assets/projects/bot-whatsapp2.png",
-            "projectURL":"https://github.com/JohanLeon0914/bot-whatsapp-prueba",
-            "overview":"A chatbot with AI that is able to answer questions depending on the business for which you want to adapt, people can enter the bot's chat and ask questions related to the context (mostly businesses) for which it is programmed.",
-            "tecnologys":"Nodejs, OpenAI, @bot-whatsapp",
-            "deploy":"false"
     }
 ]
