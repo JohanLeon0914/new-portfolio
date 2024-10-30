@@ -9,15 +9,6 @@
         "deploy" :"true"
     },
     {
-        "title" :"Zoom Clone",
-        "backgroundImg" :"/assets/projects/zoom.png",
-        "projectURL": "https://zoom-clone-johan.vercel.app",
-        "code": "https://github.com/JohanLeon0914/zoom-clone",
-        "overview" :"I developed a Zoom clone which has its basic functionalities, such as creating an instant meeting and scheduling meetings, several users can also join the meetings and has options to manage the audio and video input and output devices for a meeting. I learned call and stream management thanks to the 'Stream' framework that made it easier for me to create all these streaming functionalities.",
-        "tecnologys" :"Nextjs, TailwindCSS, Stream",
-        "deploy" :"true"
-    },
-    {
         "title" :"Ecommerce Next14",
         "backgroundImg" :"/assets/projects/ecommerce.jpg",
         "projectURL": "https://ecommerce-next14.vercel.app",
@@ -42,6 +33,15 @@
         "code": "https://github.com/JohanLeon0914/amazon-clone",
         "overview" :"A flawlessly operational Amazon-inspired replica, implemented with a dedicated shopping gateway via Strike. This replica boasts features that allow logged-in users to seamlessly add products to their carts, bookmark items as favorites, and efficiently search for products within the e-commerce platform. User authentication is seamlessly facilitated through Google.",
         "tecnologys" :"Nextjs, Stripe, TailwindCSS, Redux",
+        "deploy" :"true"
+    },
+    {
+        "title" :"Zoom Clone",
+        "backgroundImg" :"/assets/projects/zoom.png",
+        "projectURL": "https://zoom-clone-johan.vercel.app",
+        "code": "https://github.com/JohanLeon0914/zoom-clone",
+        "overview" :"I developed a Zoom clone which has its basic functionalities, such as creating an instant meeting and scheduling meetings, several users can also join the meetings and has options to manage the audio and video input and output devices for a meeting. I learned call and stream management thanks to the 'Stream' framework that made it easier for me to create all these streaming functionalities.",
+        "tecnologys" :"Nextjs, TailwindCSS, Stream",
         "deploy" :"true"
     },
     {
