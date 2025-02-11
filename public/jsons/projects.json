@@ -1,11 +1,10 @@
 [
     {
-        "title" :"Spotify Clone Astro",
-        "backgroundImg" :"/assets/projects/spotify.jpg",
-        "projectURL": "https://spotify-clone-alpha-green.vercel.app",
-        "code": "https://github.com/JohanLeon0914/spotify-clone",
-        "overview" :"I developed a Spotify clone using the Astro web framework, leveraging the open-source project by YouTuber Midudev, accessible at: https://github.com/midudev/spotify-twitch-clone. In addition to incorporating core features from the original, such as autoplay, playlist song selection, and shuffle mode, I enhanced it with a fully responsive design. Furthermore, I addressed and rectified any errors present in the original codebase",
-        "tecnologys" :"Astro, Zustand, TailwindCSS",
+        "title" :"AI bot friends",
+        "backgroundImg" :"/assets/projects/ai-bots.jpg",
+        "projectURL": "https://psychology-app-lac.vercel.app/",
+        "overview" :"An application where you can talk about your problems and life experiences with bots. I made this application with deepseek API and I learned a lot about AI with this app.",
+        "tecnologys" :"Nextjs 15, Tailwindcss, DeepSeek API, AI",
         "deploy" :"true"
     },
     {
@@ -26,6 +25,16 @@
         "deploy" :"false",
         "images": ["/assets/projects/payload/categories.png", "/assets/projects/payload/shop.png", "/assets/projects/payload/product_detail.png","/assets/projects/payload/dashboard.png", "/assets/projects/payload/dashboard_categories.png", "/assets/projects/payload/dashboard_media.png", "/assets/projects/payload/dashboard_products.png"]
     },
+    {
+        "title" :"Spotify Clone Astro",
+        "backgroundImg" :"/assets/projects/spotify.jpg",
+        "projectURL": "https://spotify-clone-alpha-green.vercel.app",
+        "code": "https://github.com/JohanLeon0914/spotify-clone",
+        "overview" :"I developed a Spotify clone using the Astro web framework, leveraging the open-source project by YouTuber Midudev, accessible at: https://github.com/midudev/spotify-twitch-clone. In addition to incorporating core features from the original, such as autoplay, playlist song selection, and shuffle mode, I enhanced it with a fully responsive design. Furthermore, I addressed and rectified any errors present in the original codebase",
+        "tecnologys" :"Astro, Zustand, TailwindCSS",
+        "deploy" :"true"
+    },
+    
     {
         "title" :"Amazon Clone",
         "backgroundImg" :"/assets/projects/amazon.jpg",
