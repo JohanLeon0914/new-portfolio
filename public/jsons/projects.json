@@ -3,9 +3,10 @@
         "title" :"AI bot friends",
         "backgroundImg" :"/assets/projects/ai-bots.jpg",
         "projectURL": "https://psychology-app-lac.vercel.app/",
-        "overview" :"An application where you can talk about your problems and life experiences with bots. I made this application with deepseek API and I learned a lot about AI with this app.",
-        "tecnologys" :"Nextjs 15, Tailwindcss, DeepSeek API, AI",
-        "deploy" :"true"
+        "overview" :"An app where you can talk about your problems and life experiences with AI-powered bots. I developed this app using the Deepseek API, integrating a real-time chat for fast and accurate responses. It includes a fully functional payment gateway with Stripe and a premium subscription system to access exclusive benefits, such as unlimited chats and more detailed answers. This project allowed me to learn about AI, API integration, and full-stack development, creating an innovative tool for emotional well-being.",
+        "tecnologys" :"Nextjs 15, Tailwindcss, DeepSeek API, Stripe",
+        "deploy" :"true",
+        "images": ["/assets/projects/ai-bots.jpg", "/assets/projects/ai-bots/ai1.jpg", "/assets/projects/ai-bots/ai2.jpg","/assets/projects/ai-bots/ai3.jpg", "/assets/projects/ai-bots/ai4.jpg"]
     },
     {
         "title" :"Ecommerce Next14",
