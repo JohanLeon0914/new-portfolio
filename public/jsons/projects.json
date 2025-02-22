@@ -4,9 +4,17 @@
         "backgroundImg" :"/assets/projects/ai-bots.jpg",
         "projectURL": "https://psychology-app-lac.vercel.app/",
         "overview" :"An app where you can talk about your problems and life experiences with AI-powered bots. I developed this app using the Deepseek API, integrating a real-time chat for fast and accurate responses. It includes a fully functional payment gateway with Stripe and a premium subscription system to access exclusive benefits, such as unlimited chats and more detailed answers. This project allowed me to learn about AI, API integration, and full-stack development, creating an innovative tool for emotional well-being.",
-        "tecnologys" :"Nextjs 15, Tailwindcss, DeepSeek API, Stripe",
+        "tecnologys" :"Nextjs 15, Tailwindcss, DeepSeek API, Stripe, Firebase",
         "deploy" :"true",
         "images": ["/assets/projects/ai-bots.jpg", "/assets/projects/ai-bots/ai1.jpg", "/assets/projects/ai-bots/ai2.jpg","/assets/projects/ai-bots/ai3.jpg", "/assets/projects/ai-bots/ai4.jpg"]
+    },
+    {
+        "title" :"Ecommerce Mercadopago",
+        "backgroundImg" :"/assets/projects/eccommerce-mercadopago.jpg",
+        "projectURL": "https://eccomer-next-mercadopago-git-master-johanleon0914s-projects.vercel.app/",
+        "overview" :"An e-commerce application that implements the Mercadopago API, with a shipping address management system to receive the products. Includes an admin panel to manage product data, view orders placed by customers, and mark an order as placed within the app. Managing databases and user sessions with firebase",
+        "tecnologys" :"Nextjs 15, Tailwindcss, Mercadopago, Firebase",
+        "deploy" :"true"
     },
     {
         "title" :"Ecommerce Next14",
@@ -64,15 +72,6 @@
         "deploy" :"true"
     },
     {
-        "title" :"AI Image Editor",
-        "backgroundImg" :"/assets/projects/imaginify.jpg",
-        "projectURL" :"https://imaginify-ashen.vercel.app",
-        "code": "https://github.com/JohanLeon0914/imaginify",
-        "overview" :"I've developed an AI-powered image editor called 'IA Assistant' which offers various image editing features such as restoration, object removal, recoloring, and background removal. Users can access these features through a monthly credit subscription plan. There are multiple subscription packages available, including a free option for those who want to try out the service. The image editing capabilities are made possible through an AI service provided by 'Cloudinary.' This service enables all the mentioned AI image editing options. Additionally, I've integrated Stripe for handling the monthly payment options for the different subscription plans.",
-        "tecnologys" :"Nextjs, Stripe, MongoDB, Cloudinary, TailwindCSS, Shadcn",
-        "deploy" :"true"
-    },
-    {
         "title" :"Application to read and publish my novel",
         "backgroundImg" :"/assets/projects/pandora.png",
         "projectURL" :"https://pandora-web-phi.vercel.app",
@@ -106,29 +105,5 @@
         "overview":"Application created for the management of your gym routines, I created this app so that you can design your own routines, save them and track the days in which you completed them, what exercises you did, repetitions and among other routine management options.",
         "tecnologys":"Nextjs, TailwindCSS, Firebase",
         "deploy":"false"
-    },
-    {
-        "title":"Chatbot IA stream text",
-            "backgroundImg":"/assets/projects/chatbot-ia.png",
-            "projectURL":"https://chat-ai-kappa-one.vercel.app",
-            "overview":"The chatbot app built in Next.js and using the Versel JDK for AI with OpenAI is an innovative solution that allows users to interact with a personalized virtual assistant, acting as if it were Johan León. Users can ask questions about contact information and receive immediate and accurate responses. OpenAI's AI technology enables real-time text generation through Stream String, ensuring that the chatbot generates responses instantly as users input their questions or queries. This provides a seamless and natural conversational experience. The user interface of the app is intuitive and user-friendly. Users can interact with the chatbot by simply typing their questions into the text box and receiving instant responses on the screen. The app can also provide personalized information about Johan León, such as contact details, professional experience, and other relevant details.",
-            "tecnologys":"Nextjs, OpenAI, TailwindCSS, SDK IA Versel",
-            "deploy":"true"
-    },
-    {
-        "title":"Ionic Store App",
-            "backgroundImg":"/assets/projects/store-ionic.png",
-            "projectURL":"https://github.com/JohanLeon0914/ionic-store",
-            "overview":"Online store application that has a role system for administrators and customer users, where administrators can publish and edit products within the store and customers can view and add products to their shopping cart, and then buy them by generating a invoice for all products in your cart.",
-            "tecnologys":"Angular, Ionic7, Firebase",
-            "deploy":"false"
-    },
-    {
-        "title":"Chatbot IA: Ionic and Nodejs",
-            "backgroundImg":"/assets/projects/chat-bot-ionic.png",
-            "projectURL":"https://chat-ai-kappa-one.vercel.app",
-            "overview":"A chatbot application which consumes a nodejs api that allows users to answer questions using the openai 3.5 natural language model, which is consumed by an app made with Ionic+Angular where the user can chat with this model.",
-            "tecnologys":"Ionic, Angular, OpenAI, Nodejs",
-            "deploy":"true"
     }
 ]
