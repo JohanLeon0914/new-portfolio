@@ -59,7 +59,7 @@ const Experience = () => {
               <h2 className="text-lg font-semibold">
                 Fullstack Developer in HTEX SAS
               </h2>
-              <p className="text-gray-500">Jan/2024 - Dec/2025</p>
+              <p className="text-gray-500">Jan/2024 - Dec/2024</p>
             </div>
           </div>
           <p className="text-gray-400 mb-4">
