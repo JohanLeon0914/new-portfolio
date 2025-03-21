@@ -20,35 +20,8 @@ const Experience = () => {
           Experience
         </p>
         <h2 className="py-5">{h2}</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex items-center mb-4">
-            <img
-              src="/assets/experience/milenium-logo.svg"
-              alt="Milenium Group Logo"
-              className="w-12 h-12 mr-4"
-            />
-            <div>
-              <h2 className="text-lg font-semibold">
-                Frontend Web Developer - Angular
-              </h2>
-              <p className="text-gray-500">Jan/2023 - Apr/2023</p>
-            </div>
-          </div>
-          <p className="text-gray-400 mb-4">
-            Developed interfaces and functionalities using the Angular
-            framework. Worked on various projects within the company, evolving
-            in this role and proposing solution ideas for the company&apos;s web
-            applications.
-          </p>
-          <button
-            className="bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={handleDownload}
-          >
-            Download Work Certificate
-          </button>
-        </div>
 
-        <div className="grid md:grid-cols-2 gap-8 pt-12">
+        <div className="grid md:grid-cols-2 gap-8">
           <div className="flex items-center mb-4">
             <img
               src="/assets/experience/htext.webp"
@@ -63,12 +36,35 @@ const Experience = () => {
             </div>
           </div>
           <p className="text-gray-400 mb-4">
-            Fullstack programmer in charge of managing the different web
-            applications of the clothing design company htext. Responsible for
-            implementing and solving the different technical needs of the
-            company.
+            Full Stack Developer at HTEX S.A.S., responsible for managing and
+            developing the company's IT solutions. Responsible for designing and
+            building web applications that optimize business processes, as well
+            as developing static websites to showcase the company's product
+            catalog, brand distribution, and affiliate network.
           </p>
         </div>
+
+        <div className="grid md:grid-cols-2 gap-8 pt-12">
+          <div className="flex items-center mb-4">
+            <img
+              src="/assets/experience/milenium-logo.svg"
+              alt="Milenium Group Logo"
+              className="w-12 h-12 mr-4"
+            />
+            <div>
+              <h2 className="text-lg font-semibold">
+                Frontend Web Developer - Angular
+              </h2>
+              <p className="text-gray-500">Jan/2023 - Oct/2023</p>
+            </div>
+          </div>
+          <p className="text-gray-400 mb-4">
+            Developer of user interface components and logic features using
+            Angular. Primarily responsible for the design and implementation of
+            business logic for several applications at the Millennium Group.
+          </p>
+        </div>
+
       </div>
     </div>
   );
