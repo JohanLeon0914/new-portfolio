@@ -37,10 +37,11 @@ const Experience = () => {
           </div>
           <p className="text-gray-400 mb-4">
             Full Stack Developer at HTEX S.A.S., responsible for managing and
-            developing the company's IT solutions. Responsible for designing and
-            building web applications that optimize business processes, as well
-            as developing static websites to showcase the company's product
-            catalog, brand distribution, and affiliate network.
+            developing the company&apos;s IT solutions. Responsible for
+            designing and building web applications that optimize business
+            processes, as well as developing static websites to showcase the
+            company&apos;s product catalog, brand distribution, and affiliate
+            network.
           </p>
         </div>
 
@@ -64,7 +65,6 @@ const Experience = () => {
             business logic for several applications at the Millennium Group.
           </p>
         </div>
-
       </div>
     </div>
   );
